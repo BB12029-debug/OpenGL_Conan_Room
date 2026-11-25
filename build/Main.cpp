@@ -154,6 +154,7 @@ int main()
 	unsigned int texWallWindows = loadTexture("textures/wall_windows.jpg");
 	unsigned int texWallDoor = loadTexture("textures/wall_door.jpg");
 	unsigned int texWallPlain = loadTexture("textures/wall_plain.jpg");
+	
 	// 2. بناء الغرفة
 	float roomW = 6.5f, roomH = 5.0f, roomD = 6.5f;
 	PolygonWithTexture *floorQuad = createTexturedQuad(
